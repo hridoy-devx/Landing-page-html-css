@@ -405,10 +405,11 @@ img {
     transition: all linear 0.3s;
 }
 
-.card-menu.active {
+.card-menu:hover {
     opacity: 1;
     border-color: #0a84ff;
     background-color: #161616;
+    transform: translateY(-6px);
 }
 
 .quote-icon {
